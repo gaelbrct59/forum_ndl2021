@@ -24,19 +24,47 @@
     flex-wrap: wrap;
 }
 h1 {
-    font-size: calc(15px + 2.5vw);
+    font-size: calc(25px + 2.5vw);
     padding-bottom: 0;
     color: #fff;
 }
 
+.animate{
+    width: 100%;
+}
 @media screen and (min-width: 1000px) {
     .container-title{
         align-content: center;
     }
+    h1{
+        font-size: calc(15px + 2.5vw);
+    }
+    .animate{
+        width: 70%;
+    }
 }
+@media screen and (max-width: 1000px) {
+    .container-infos{
+        flex-direction: column;
+    }
+    .animation{
+        width: auto;
+    }
+    .animation lottie-player{
+        width: auto;
+    }
+}
+
+.container-company{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em;
+}
+
 
 .background-container h2{
     padding: 1em;
+    font-size: 40px;
 }
 
 .header #background {
@@ -58,11 +86,19 @@ h1 {
       justify-content: center;
   }
   .company-card{
-      height: 15em;
-      width: 18em;
-      margin: 2em;
-      background-color: aqua;
+      border: solid #0E1A34;
+      height: 10em;
+      width: 13em;
+      margin: 1.5em;
+      border-radius: 15px;
+      background-color: #fff;
   }
+  #decathlon{
+      background-image: url('assets/img/logo_decat.png') ;
+      background-size: 175%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
   .footer{
       height: 40vh;
@@ -73,9 +109,21 @@ h1 {
       background: #7D9AAB;
       color: #fff;
   }
+  .container-infos{
+      display: flex;
+      align-items: center;
+  }
 
+  .animation{
+      width: 40%;
+  }
+  .animation lottie-player{
+    margin: auto;
+  }
   .infos-content{
       width: 80%;
-      margin: auto;
-      padding: 2em;
+  }
+
+  .bold{
+      font-weight: bold;
   }
