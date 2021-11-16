@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: system-ui;
@@ -6,14 +6,20 @@
     overflow-x: hidden;
 }
 
-.header{
+lottie-player {
+    width: 300px;
+    height: 300px;
+}
+
+.header {
     position: absolute;
     overflow: hidden;
     width: 100%;
     height: 100vh;
     background: #314E5F;
 }
-.container-title{
+
+.container-title {
     display: flex;
     margin: auto;
     width: 70%;
@@ -23,46 +29,51 @@
     align-content: flex-end;
     flex-wrap: wrap;
 }
+
 h1 {
     font-size: calc(25px + 2.5vw);
     padding-bottom: 0;
     color: #fff;
 }
 
-.animate{
+.animate {
     width: 100%;
 }
+
 @media screen and (min-width: 1000px) {
-    .container-title{
+    .container-title {
         align-content: center;
     }
-    h1{
+    h1 {
         font-size: calc(15px + 2.5vw);
     }
-    .animate{
+    .animate {
         width: 70%;
     }
 }
+
 @media screen and (max-width: 1000px) {
-    .container-infos{
+    .container-infos {
         flex-direction: column;
     }
-    .animation{
+    .animation {
         width: auto;
     }
-    .animation lottie-player{
+    .animation lottie-player {
         width: auto;
+    }
+    lottie-player {
+        width: 450px;
     }
 }
 
-.container-company{
+.container-company {
     display: flex;
     align-items: center;
     margin-bottom: 8em;
 }
 
-
-.background-container h2{
+h2 {
     padding: 1em;
     font-size: 40px;
 }
@@ -78,52 +89,186 @@ h1 {
     background-repeat: no-repeat;
     animation-fill-mode: forwards;
     /* animation: animBackground 1s; */
-  }
+}
 
-  .container{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-  .company-card{
-      border: solid #0E1A34;
-      height: 10em;
-      width: 13em;
-      margin: 1.5em;
-      border-radius: 15px;
-      background-color: #fff;
-  }
-  #decathlon{
-      background-image: url('assets/img/logo_decat.png') ;
-      background-size: 175%;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-card {
+    border: solid #0E1A34;
+    height: 10em;
+    width: 13em;
+    margin: 1.5em;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#decathlon {
+    background-image: url('assets/img/logo_decat.png');
+    background-size: 175%;
     background-repeat: no-repeat;
     background-position: center;
-    }
+}
 
-  .footer{
-      height: 40vh;
-      background-color: #0E1A34;
-  }
+.footer {
+    background-color: #0E1A34;
+    color: #fff;
+    overflow: hidden;
+}
 
-  .infos{
-      background: #7D9AAB;
-      color: #fff;
-  }
-  .container-infos{
-      display: flex;
-      align-items: center;
-  }
+.container-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-  .animation{
-      width: 40%;
-  }
-  .animation lottie-player{
+.rsx {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    width: fit-content;
+    margin-right: 2em;
+}
+
+.rsx a {
+    width: 3em;
+    height: 3em;
+    background: #fff;
+    border-radius: 100%;
+    margin: 0.3em;
+}
+
+.footer-links {
+    display: grid;
+    margin-left: 3em;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+    color: #fff;
+}
+
+.footer-links a {
+    font-size: 15px;
+}
+
+.infos {
+    background: #7D9AAB;
+    color: #fff;
+}
+
+.container-infos {
+    display: flex;
+    align-items: center;
+}
+
+.animation lottie-player {
     margin: auto;
-  }
-  .infos-content{
-      width: 80%;
-  }
+}
 
-  .bold{
-      font-weight: bold;
-  }
+.infos-content {
+    width: 80%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container-logo-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo-sponsor a {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    margin: 1em;
+}
+
+.container-logo-sponsor #sponsor-aei {
+    background: url(assets/img/aei.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-logo-sponsor #sponsor-ulille {
+    background: url(assets/img/ulille.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-logo-sponsor #sponsor-decathlon {
+    background: url(assets/img/logo_decat.png);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0084C7;
+}
+
+.container-logo-sponsor #sponsor-tchoupa {
+    background: url(assets/img/tchoupa.png);
+    background-size: 68%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}
+
+.container-logo-sponsor #sponsor-gb {
+    background: url(assets/img/gb.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}
+
+hr {
+    width: 90%;
+    padding: 0;
+    margin: 1em auto;
+}
+
+#twitter {
+    background: url(assets/img/twitter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#facebook {
+    background: url(assets/img/facebook.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#discord {
+    background: url(assets/img/discord.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#instagram {
+    background: url(assets/img/instagram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#linkedin {
+    background: url(assets/img/linkedin.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
