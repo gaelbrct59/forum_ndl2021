@@ -130,6 +130,13 @@ h2 {
     background-position: center;
 }
 
+#inetum {
+    background-image: url('assets/img/inetum_logo.jpg');
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .footer {
     background-color: #0E1A34;
     color: #fff;
@@ -227,6 +234,14 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #0084C7;
+}
+
+.container-logo-sponsor #sponsor-inetum {
+    background: url(assets/img/inetum_logo.jpg);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1C273C;
 }
 
 .container-logo-sponsor #sponsor-tchoupa {
