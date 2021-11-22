@@ -199,6 +199,10 @@ a {
     font-weight: bold;
 }
 
+.bold a {
+    text-decoration: underline;
+}
+
 .container-logo-sponsor {
     display: flex;
     flex-wrap: wrap;
