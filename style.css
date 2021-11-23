@@ -137,6 +137,13 @@ h2 {
     background-position: center;
 }
 
+#worldline {
+    background-image: url('assets/img/worldline_logo.jpg');
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .footer {
     background-color: #0E1A34;
     color: #fff;
@@ -230,14 +237,6 @@ a {
     background-size: 105%;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.container-logo-sponsor #sponsor-decathlon {
-    background: url(assets/img/logo_decat.png);
-    background-size: 175%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #0084C7;
 }
 
 .container-logo-sponsor #sponsor-inetum {
