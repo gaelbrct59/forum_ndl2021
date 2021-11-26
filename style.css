@@ -254,6 +254,14 @@ a {
     background-color: #1C273C;
 }
 
+.container-logo-sponsor #sponsor-worldline {
+    background: url(assets/img/worldline_logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}
+
 .container-logo-sponsor #sponsor-tchoupa {
     background: url(assets/img/tchoupa.png);
     background-size: 68%;
