@@ -151,6 +151,13 @@ h2 {
     background-position: center;
 }
 
+#proxiad {
+    background-image: url('assets/img/proxiad_logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .footer {
     background-color: #0E1A34;
     color: #fff;
