@@ -151,6 +151,13 @@ h2 {
     background-position: center;
 }
 
+#zenika {
+    background-image: url('assets/img/logo_zenika.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #proxiad {
     background-image: url('assets/img/proxiad_logo.png');
     background-size: 100%;
